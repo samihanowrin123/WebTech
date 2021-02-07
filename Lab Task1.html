@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+
+<html>
+<body style="background-color:lightgray;">
+
+	<form>
+		<p>
+			<small>Denotes require information<<br><b>> 1Donation</b> > 2Confirmation >Thank you</small>
+			<h2 style="color:red;">Donor Information</h2><br>
+			<label for="fname"><b>First name:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+
+			<label for="lname"><b>Last name:</b></label>
+			<input type="text" id="lname" name="lname" value=" "><br>
+
+			<label for="fname"><b>Company:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+
+			<label for="fname"><b>Address 2:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+			<label for="fname"><b>City:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+			<form action="/action_page.php">
+				<label for="state"><b>State:</b></label>
+				<select id="state" name="state">
+					<option value="dhaka">Dhaka</option>
+					<option value="comilla">Comilla</option>
+					<option value="sylhet">Sylhet</option>
+					<option value="barishal">Barishal</option>
+				</select><br>
+			</form>
+			<label for="fname"><b>Zip Code:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+			<label for="state"><b>Country:</b></label>
+			<select id="country" name="country">
+				<option value="bangladesh">Bangladesh</option>
+				<option value="london">London</option>
+				<option value="bhutan">Bhutan</option>
+				<option value="africa">Africa</option>
+			</select><br>
+			<label for="fname"><b>Phone:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+			<label for="fname"><b>Fax:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+			<label for="fname"><b>Email:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+			<form>
+				<label for="fname"><b>Donation Amount:</b></label><br>
+				<sup>(check a button or type in your amount)</sup><br>
+				<input type="radio" id="none" name="none" value="null">
+				<label for="dollar">None</label>
+				<input type="radio" id="dollar" name="amount" value="fifty">
+				<label for="dollar">$50</label>
+				<input type="radio" id="dollar" name="amount" value="seventy five">
+				<label for="dollar">$75</label>
+				<input type="radio" id="dollar" name="amount" value="hundred">
+				<label for="dollar">$100</label>
+				<input type="radio" id="dollar" name="amount" value="two hundred and fifty">
+				<label for="dollar">$250</label>
+				<input type="radio" id="other" name="amount" value="other">
+				<label for="dollar">Other</label><br>
+				<label for="fname"><b>Other Amount $</b></label>
+				<input type="text" id="fname" name="fname" value=" "><br>
+
+			</form>
+			<form action="/action_page.php">
+				<label for="fname"><b>Recurring Donation:</b></label><sub>(check if yes)</sub><br>
+				<input type="checkbox" id="donation" name="donaton" value="donation">
+				<label for="donation">I am interested in giving on a regular basis.</label><br>
+			</form>
+			<form action="/action_page.php">
+				<label for="quantity">Monthly credit card $:</label>
+				<input type="number" id="quantity" name="quantity" maxlength="4" size="4">
+				<label for="quantity">for</label>
+				<input type="number" id="quantity" name="quantity" maxlength=" 4" size="4">
+				<label for="quantity">months</label>
+			</form>
+		<h3 style="color:red">Honorarium and Memorial Donation Information</h3><br>
+		<form>
+
+			<label for="fname"><b>I would like to make this donation:</b></label><br>
+			<input type="radio" id="none" name="none" value=" ">
+			<label for="dollar">To Honor</label><br>
+			<input type="radio" id="none" name="none" value="none">
+			<label for="dollar">In Memory of</label><br>
+
+			<label for="fname"><b>Name:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+
+			<label for="lname"><b>Acknowledge donation to:</b></label>
+			<input type="text" id="lname" name="lname" value=" "><br>
+
+			<label for="fname"><b>Address:</b></label>
+			<input type="text" id="fname" name="fname" value=" "><br>
+
+			<label for="lname"><b>City:</b></label>
+			<input type="text" id="lname" name="lname" value=" "><br>
+			<form action="/action_page.php">
+				<label for="state"><b>State:</b></label>
+				<select id="state" name="state">
+					<option value="dhaka">Dhaka</option>
+					<option value="comilla">Comilla</option>
+					<option value="sylhet">Sylhet</option>
+					<option value="barishal">Barishal</option>
+				</select><br>
+
+				<label for="lname"><b>Zip:</b></label>
+
+				<input type="text" id="lname" name="lname" value=" "><br>
+			</form>
+			<form action="/action_page.php">
+				<h3 style="color:red">Additional Information:</h3>
+				<br>Please enter your name,company or organization as you would like it to appear in our publication:</b><br>
+				<form>
+					<label for="name"><b>Name</b></label>
+					<input type="text" id="name" name="name" value=" "><br>
+					<input type="checkbox" id="donation" name="donaton" value="donation">
+					<label for="donation">I would like my gift remain anoymous.</label><br>
+					<input type="checkbox" id="donation" name="donaton" value="donation">
+					<label for="donation">My employer offers a matching gift program.I will mail the matching gift form.</label><br>
+					<input type="checkbox" id="donation" name="donaton" value="donation">
+					<label for="donation">Please save the cost of acknowledging the gift by not mailing a thank you letter.</label><br>
+				</form>
+			</form>
+
+
+		</form>
+		<label for="donation"><b>Comments:</b></label><sub>(Please type any question or feedback here)</sub><br>
+		<form action="/action_page.php">
+<textarea name="message" style="width:300px; height:100px;"></textarea><br>
+
+		</form>
+		<label for="donation"><b>How may we contact you:</b></label>
+			<form>
+			<input type="checkbox" id="donation" name="donaton" value="donation">
+			<label for="donation">E-mail</label><br>
+			<input type="checkbox" id="donation" name="donaton" value="donation">
+			<label for="donation">Postal mail</label><br>
+			<input type="checkbox" id="donation" name="donaton" value="donation">
+			<label for="donation">Telephone</label><br>
+			<input type="checkbox" id="donation" name="donaton" value="donation">
+			<label for="donation">Fax</label><br>
+		</p>
+			<p style="color:gray">I would like to receive newsletters and information about events by:</p><br>
+			<input type="checkbox" id="donation" name="donaton" value="donation">
+			<label for="donation">E-mail</label><br>
+			<input type="checkbox" id="donation" name="donaton" value="donation">
+			<label for="donation">Postal mail</label><br>
+			<input type="checkbox" id="donation" name="donaton" value="donation">
+			<label for="donation">I would like information about volunteering with the</label><br>
+			<input type="reset">
+			<input type="submit" value="Submit">
+			<p>
+
+					<span style='font-size:10px;'>&#128275;</span>
+					<small>Donate online with confidence.You are on a secure service.</small><br>
+					<small>If you have any problem or question please contact support</small>
+			</p>
+		</form>
+</body>
+</html>
