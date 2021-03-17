@@ -7,8 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <footer>
-        <h3>copyright 2017</h3>
-    </footer>
+    <?php include 'combine.php';?>
+    <article>
+        <h3>welcome bob</h3>
+    </article>
+    <?php include 'footer.html';?>
 </body>
 </html>
