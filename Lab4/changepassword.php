@@ -9,8 +9,8 @@
 <body>
 <?php include 'combine.php';?>
     <article>
-    <?php include 'indextwo.php';?> 
+    <?php include 'index2.php';?> 
     </article>
-    <?php include 'footer.html';?>
+    <?php include  "footer.html';?>
 </body>
 </html>

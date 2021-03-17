@@ -9,7 +9,7 @@
 <body>
     <?php include 'combine.php';?>
     <article>
-        <h3>welcome bob</h3>
+        <h3>welcome</h3>
     </article>
     <?php include 'footer.html';?>
 </body>
